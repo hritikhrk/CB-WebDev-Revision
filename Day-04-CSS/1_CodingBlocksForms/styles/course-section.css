@@ -1,0 +1,38 @@
+.choose-course-section {
+  width: 75%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.course-selection-container {
+  width: 100%;
+  /* height: 100px; */
+  /* border: 1px solid red; */
+}
+
+.choose-course {
+  width: 49%;
+  /* border: 1px solid black; */
+}
+
+.choose-course-item-1 {
+  float: left;
+}
+
+.choose-course-item-2 {
+  float: right;
+}
+
+.course-name-container {
+  margin: 5px;
+}
+
+.course-name {
+  margin-left: 3px;
+}
+
+.course-checkbox {
+  width: 15px;
+  height: 15px;
+  vertical-align: text-bottom;
+}

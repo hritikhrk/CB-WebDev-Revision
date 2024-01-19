@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coding Blocks Application Form</title>
+  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/header-section.css">
+  <link rel="stylesheet" href="./styles/user-section.css">
+  <link rel="stylesheet" href="./styles/course-section.css">
+  <link rel="stylesheet" href="./styles/miscellaneous-section.css">
+
+</head>
+
+<body>
+
+  <form class="cb-form">
+
+    <!-- Header Section Starts -->
+    <section class="header-section">
+      <table class="header-section-table">
+        <tr>
+          <td class="cb-logo">
+            <!-- CB-Logo -->
+            <div class="cb-logo-img"></div>
+          </td>
+
+          <!-- Student Application Form: Heading -->
+          <td align="center" class="header-section-heading">
+            Student Application Form
+          </td>
+          <td class="enquiry-info">
+            <div class="enquiry-checkbox">
+              <input type="checkbox"> Enquiry
+            </div>
+            <div class="enquiry-checkbox">
+              <input type="checkbox"> Enrolled
+            </div>
+          </td>
+        </tr>
+      </table>
+    </section>
+    <!-- Header Section Ends -->
+
+    <!-- User Details Collection Section Starts -->
+    <section class="user-details">
+
+      <table class="user-details-table">
+        <tr>
+
+          <td class="user-details-info">
+            <div class="user-field-wrapper">
+              <div class="user-details-field">
+                Name:
+              </div>
+              <div class="user-details-field">
+                Contact No.:
+              </div>
+              <div class="user-details-field">
+                State:
+              </div>
+              <div class="user-details-field">
+                College:
+              </div>
+              <div class="user-details-field">
+                Branch:
+              </div>
+            </div>
+
+            <div class="user-input-wrapper">
+              <input name="name" type="text" class="user-details-input">
+              <input name="contact" type="number" class="user-details-input">
+              <select name="state" class="user-details-input">
+                <option value="delhi">Delhi</option>
+                <option value="haryana">Haryana</option>
+                <option value="madhyapradesh">Madhya Pradesh</option>
+                <option value="uttarakhan">Uttrakhand</option>
+                <option value="uttarpradesh">Uttar Pradesh</option>
+                <option value="jharkhand">Jharkhand</option>
+                <option value="westbengal">West Bengal</option>
+                <option value="tamilnadu">Tamil Nadu</option>
+                <option value="karnataka">Karnataka</option>
+                <option value="bihar">Bihar</option>
+                <option value="goa">Goa</option>
+              </select>
+              <input name="college" type="text" class="user-details-input">
+              <input name="branch" type="text" class="user-details-input">
+            </div>
+
+          </td>
+
+          <td class="user-details-info">
+            <div class="user-field-wrapper">
+              <div class="user-details-field">
+                Date of Birth:
+              </div>
+              <div class="user-details-field">
+                Address:
+              </div>
+              <div class="user-details-field">
+                Pincode:
+              </div>
+              <div class="user-details-field">
+                University:
+              </div>
+              <div class="user-details-field">
+                Grad. Year:
+              </div>
+            </div>
+
+            <div class="user-input-wrapper">
+              <input name="dob" type="date" class="user-details-input">
+              <input name="address" type="text" class="user-details-input">
+              <input name="pincode" type="number" class="user-details-input">
+              <input name="university" type="text" class="user-details-input">
+              <input name="gradyear" type="number" class="user-details-input">
+            </div>
+
+          </td>
+
+        </tr>
+      </table>
+    </section>
+
+    <!-- User Details Collection Section Ends -->
+
+
+
+
+    <!-- Course Choose Section Starts -->
+
+    <section class="choose-course-section">
+      <!-- Course Choose Heading -->
+      <div class="choose-course-heading">
+        Courses Interested In (Please tick the appropriate one)
+      </div>
+
+      <!-- Courses Name -->
+
+      <div class="course-selection-container">
+
+        <div class="choose-course choose-course-item-1">
+          <div class="course-name-container">
+            <input type="checkbox" name="launchpadcpp" class="course-checkbox">
+            <span class="course-name">Launchpad (DSA using C++)</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="crux" class="course-checkbox">
+            <span class="course-name">Crux (DSA using Java)</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="algopp" class="course-checkbox">
+            <span class="course-name">Algo++ (DSA and Algo in C++)</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="algojava" class="course-checkbox">
+            <span class="course-name">Algo.java (DSA and Algo in Java)</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="mlds" class="course-checkbox">
+            <span class="course-name">Machine Learning and Data Science</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="mern" class="course-checkbox">
+            <span class="course-name">Web Development (MERN Stack)</span>
+          </div>
+        </div>
+
+        <div class="choose-course choose-course-item-2">
+          <div class="course-name-container">
+            <input type="checkbox" name="interviewcpp" class="course-checkbox">
+            <span class="course-name">Interview Prep using C++</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="systemdesign" class="course-checkbox">
+            <span class="course-name">System Design</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="compprog" class="course-checkbox">
+            <span class="course-name">Competitive Programming</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="sampoorna" class="course-checkbox">
+            <span class="course-name">Sampoorna</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="androiddev" class="course-checkbox">
+            <span class="course-name">Android App Development</span>
+          </div>
+          <div class="course-name-container">
+            <input type="checkbox" name="webdevpython" class="course-checkbox">
+            <span class="course-name">Web Development With Python</span>
+          </div>
+        </div>
+
+        <div class="clearfix"></div>
+      </div>
+
+    </section>
+    <!-- Course Choose Section Ends -->
+
+
+
+
+    <!-- Miscellaneous Question Section Starts -->
+
+    <section class="misc-section">
+      <div class="misc-details-div">
+
+        <!-- Centre Details -->
+        <div class="centre-container">
+
+          <p class="centre-ques">
+            Which centre are you interested in ? (Please tick the appropriate one)
+          </p>
+
+          <table class="centre-option-container">
+            <tr>
+              <td class="centre-item">
+                <input type="checkbox" name="Pitampura" class="centre-checkbox">
+                <span class="centre-name">Pitampura</span>
+              </td>
+
+              <td class="centre-item">
+                <input type="checkbox" name="noida" class="centre-checkbox">
+                <span class="centre-name">Noida</span>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+        <!-- Source Details -->
+        <div class="source-container">
+
+          <p class="source-ques">
+            How do you come to know about us ?
+          </p>
+
+          <table class="source-option-table">
+            <tr>
+              <td class="source-option">
+                <input type="checkbox" name="friends" class="source-checkbox">
+                <span class="source-name">Friends</span>
+              </td>
+              <td class="source-option">
+                <input type="checkbox" name="ownresearch" class="source-checkbox">
+                <span class="source-name">Your Own Research</span>
+              </td>
+              <td class="source-option">
+                <input type="checkbox" name="social" class="source-checkbox">
+                <span class="source-name">Social Media</span>
+              </td>
+              <td class="source-option">
+                <input type="checkbox" name="advertisment" class="source-checkbox">
+                <span class="source-name">Advertisment</span>
+              </td>
+            </tr>
+          </table>
+
+        </div>
+
+        <!-- Ex-VMC Ques -->
+        <div class="ex-vmc-container">
+          <p class="ex-vmc-ques">Are you an ex-VMC-student ?
+          </p>
+          <div class="ex-vmc-option-container">
+            <div class="ex-vmc-option-1">
+              <input type="checkbox" name="Yes" class="ex-vmx-checkbox">
+              <span class="ex-vmx-option-text">Yes</span>
+            </div>
+            <div class="ex-vmc-option-2">
+              <input type="checkbox" name="No" class="ex-vmx-checkbox">
+              <span class="ex-vmx-option-text">No</span>
+            </div>
+
+            <div class="clearfix"></div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+
+        <!-- VMC-YES -->
+        <div class="from-vmc-container">
+          <span class="from-vmc-text">
+            If yes, VMC Roll No.
+          </span>
+          <input type="text" name="vmcroll" class="from-vmc-input">
+        </div>
+
+        <!-- Coding Blocks Referrer -->
+        <div class="referrer-container">
+          <span class="referrer-text">
+            Name of Coding Blocks student who referred, if any
+          </span>
+          <input type="text" name="vmcroll" class="referrer-input">
+        </div>
+
+        <!-- Office Handles -->
+        <div class="office-handle-container">
+          <table class="office-handle-table">
+            <tr>
+              <td class="office-handle-item">
+                <span>Handled By:</span>
+                <input type="text" name="vmcroll" class="office-handle-input">
+              </td>
+              <td class="office-handle-item">
+                <span>Date:</span>
+                <input type="date" name="vmcroll" class="office-handle-input">
+              </td>
+              <td class="office-handle-item">
+                <span>Place:</span>
+                <input type="text" name="vmcroll" class="office-handle-input">
+              </td>
+            </tr>
+          </table>
+
+          <div class="ref-by">
+            <span class="ref-by-text">
+              Ref. By -
+            </span>
+            <input type="text" name="vmcroll" class="ref-by-input">
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Miscellaneous Question Section Ends -->
+
+  </form>
+</body>
+
+</html>

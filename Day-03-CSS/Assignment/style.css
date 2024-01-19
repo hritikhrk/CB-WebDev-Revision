@@ -1,0 +1,110 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container {
+  border: 2px solid black;
+  padding: 10px;
+  margin: 10px 10%;
+}
+
+.head {
+  margin-bottom: 30px;
+}
+
+.wrapper {
+  /* border: 2px solid red; */
+  margin-bottom: 30px;
+}
+
+/* clearfix */
+.head::after,
+.float::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
+.headWrapper {
+  width: 60%;
+  float: left;
+}
+
+.topRightContent {
+  float: right;
+}
+
+.brandImage {
+  width: 120px;
+  height: 40px;
+  background-image: url('./Assets/brandImage.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+}
+
+.formHeading {
+  font-weight: 800;
+  text-decoration: underline;
+  float: right;
+}
+
+.add-box-before::before,
+.course::before,
+.center::before,
+.source::after,
+.choice::before {
+  content: "";
+  display: inline-block;
+  border: 1px solid black;
+  width: 20px;
+  height: 12px;
+  margin-right: 5px;
+}
+
+.source::after {
+  margin-left: 5px;
+}
+
+.line-height-2 {
+  line-height: 2;
+}
+
+.courseWrapper {
+  width: 80%;
+}
+
+.course-left,
+.course-right {
+  width: 48%;
+}
+
+.centerWrapper,
+.alumniWrapper {
+  width: 40%;
+}
+
+.source {
+  margin-right: 10%;
+}
+
+.alumni {
+  width: 60%;
+}
+
+.closure-1 {
+  width: 45%;
+}
+
+.closure-2 {
+  width: 30%;
+}

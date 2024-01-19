@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+    <style>
+        /* Style the dotted line */
+        .dotted-line {
+            border: none;
+            border-bottom: 1px dotted #000; /* Change the color to your preference */
+            margin-bottom: 20px;
+        }
+
+        /* Style the form layout */
+        form {
+            max-width: 400px; /* Adjust the width as needed */
+            margin: 0 auto;
+        }
+
+        /* Style the form labels for better alignment */
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="#" method="post">
+        <!-- Name -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required class="dotted-line">
+        
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required class="dotted-line">
+        
+        <!-- Additional form fields go here -->
+        
+        <input type="submit" value="Submit">
+    </form>
+
+</body>
+</html>

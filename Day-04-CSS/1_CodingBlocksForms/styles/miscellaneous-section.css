@@ -1,0 +1,103 @@
+.misc-section {
+  width: 75%;
+  margin: 20px auto;
+}
+
+.misc-details-div {
+  width: 100%;
+  /* border: 1px solid red; */
+}
+
+.centre-option-container {
+  width: 50%;
+  margin: 3px;
+}
+
+.centre-item {
+  width: 25%;
+}
+
+.centre-checkbox,
+.source-checkbox,
+.ex-vmx-checkbox {
+  width: 15px;
+  height: 15px;
+  vertical-align: text-bottom;
+}
+
+.source-container,
+.ex-vmc-container,
+.from-vmc-container,
+.referrer-container,
+.office-handle-container {
+  margin-top: 10px;
+  /* border: 1px solid red; */
+  width: 100%;
+}
+
+.source-option-table {
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+.source-option {
+  /* border: 1px solid red; */
+  width: 25%;
+}
+
+.from-vmc-input {
+  margin-left: 20px;
+}
+
+.ex-vmc-ques {
+  width: 30%;
+  float: left;
+  /* border: 1px solid red; */
+}
+
+.ex-vmc-option-container {
+  width: 68%;
+  float: right;
+  /* border: 1px solid red; */
+}
+
+.ex-vmc-option-1 {
+  width: 25%;
+  float: left;
+  /* border: 1px solid black; */
+}
+
+.ex-vmc-option-2 {
+  width: 73%;
+  float: right;
+  /* border: 1px solid black; */
+}
+
+.referrer-input {
+  margin-left: 20px;
+  width: 30%;
+}
+
+.office-handle-table {
+  width: 100%;
+  /* border: 1px solid black; */
+}
+
+.office-handle-item {
+  width: 33%;
+  /* border: 1px solid black; */
+}
+
+.office-handle-input {
+  margin-left: 20px;
+  width: 55%;
+}
+
+.ref-by {
+  margin-top: 10px;
+}
+
+.ref-by-input {
+  margin-left: 20px;
+  width: 30%;
+}
