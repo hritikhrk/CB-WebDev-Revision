@@ -1,0 +1,25 @@
+.main-content-container {
+  border: 1px solid black;
+  min-height: 100px;
+  margin-top: 50px;
+}
+
+.main-content-grid {
+  display: grid;
+  grid-template-columns: 300px auto;
+  grid-template-rows: max-content;
+  column-gap: 10px;
+  border: 1px solid red;
+}
+
+.side-bar-subgrid {
+  grid-column: 0/1;
+  grid-row: 1/-1;
+  border: 1px solid black;
+}
+
+.content-subgrid {
+  grid-column: 1/2;
+  grid-row: 1/-1;
+  border: 1px solid red;
+}
