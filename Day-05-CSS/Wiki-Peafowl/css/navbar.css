@@ -154,10 +154,15 @@
 .link-container > a {
   /* border: 1px solid black; */
   margin-right: 10px;
+  text-decoration: none;
 }
 
 .dot-menu {
   display: flex;
   /* border: 1px solid red; */
+}
+
+.link-container > a:hover {
+  text-decoration: underline;
 }
 

@@ -9,3 +9,12 @@
   line-height: 1.5;
   margin: 0 50px;
 }
+
+a {
+  color: #3366cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
